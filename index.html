@@ -1,34 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"/> 
-<meta name="viewport"
-content="width=device-width,
-initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="style.css">
+    <title>Pinku Portfolio</title>
 
-<title>my website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
-
 <body>
-<h1 class="a"> hyy👋👋 </h1>
-<h4 class="a"> my name's <u>PINKU YADAV </u></h4>
-<h4 class="a">i'm just improving my web development skills here! </h4>
-<h4 id="b">
-<h4 id="b"> hahahh <h4>
 
-<img src="unnamed.png" alt="animeboy pic" width="350" height="350"/>
-<a href="https://www.instagram.com/pinku_85060?igsh=MTMyb2FhZ3poOW14ZA=="> my insta:id </a>
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
 
-<h3 id="c">"If you click the Change button, the text below will change." <h3>
-<p id="text">Hello</p>
+            <div class="logo">
+                PINKU
+            </div>
 
-<button onclick="document.getElementById('text').innerHTML = 'Hlww Baby🫠🫠'">
-    Change
-</button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
 
+            <button class="hire-btn">
+                Hire Me
+            </button>
 
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+
+        <div class="hero-text">
+
+            <h3>Hello 👋</h3>
+
+            <h1>
+                I'm
+                <span>Pinku Yadav</span>
+            </h1>
+
+            <h2>
+                Frontend Web Developer
+            </h2>
+
+            <p>
+                I create responsive websites using
+                HTML, CSS and JavaScript.
+                Currently learning web development
+                and building projects every day.
+            </p>
+
+            <div class="hero-buttons">
+
+                <button class="primary-btn">
+                    View Projects
+                </button>
+
+                <button class="secondary-btn">
+                    Contact Me
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="profile.jpg"
+                 alt="Profile Picture">
+
+        </div>
+
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+
+        <div class="about-image">
+
+            <img src="about.png"
+                 alt="About Image">
+
+        </div>
+
+        <div class="about-text">
+
+            <h2>
+                About <span>Me</span>
+            </h2>
+
+            <p>
+                I am a self-taught web developer.
+                I enjoy creating modern websites,
+                learning new technologies and
+                improving my coding skills.
+            </p>
+
+            <p>
+                My goal is to become a professional
+                full-stack developer and work on
+                real-world projects.
+            </p>
+
+            <button class="primary-btn">
+                Download CV
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+
+        <h2>My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <p>90%</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <p>85%</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>75%</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Responsive Design</h3>
+                <p>90%</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>GitHub</h3>
+                <p>70%</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Linux</h3>
+                <p>65%</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+
+        <h2>Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>
+                    Personal responsive portfolio.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Age Checker</h3>
+                <p>
+                    JavaScript age checker app.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Calculator</h3>
+                <p>
+                    Simple calculator project.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Landing Page</h3>
+                <p>
+                    Modern responsive landing page.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+
+        <h2>Services</h2>
+
+        <div class="services-container">
+
+            <div class="service-card">
+
+                <i class="fa-solid fa-code"></i>
+
+                <h3>Web Development</h3>
+
+                <p>
+                    Modern responsive websites.
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <i class="fa-solid fa-mobile-screen"></i>
+
+                <h3>Responsive Design</h3>
+
+                <p>
+                    Mobile and desktop friendly UI.
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <i class="fa-solid fa-palette"></i>
+
+                <h3>UI Design</h3>
+
+                <p>
+                    Clean and attractive interfaces.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+
+        <h2>Contact Me</h2>
+
+        <div class="contact-container">
+
+            <form>
+
+                <input type="text"
+                       placeholder="Your Name">
+
+                <input type="email"
+                       placeholder="Your Email">
+
+                <textarea
+                    rows="6"
+                    placeholder="Your Message">
+                </textarea>
+
+                <button class="primary-btn">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <h3>Pinku Yadav</h3>
+
+        <div class="social-icons">
+
+            <a href="#">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-youtube"></i>
+            </a>
+
+        </div>
+
+        <p>
+            © 2026 All Rights Reserved
+        </p>
+
+    </footer>
 
 </body>
 </html>
